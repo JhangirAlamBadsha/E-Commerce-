@@ -1,0 +1,15 @@
+﻿@model MVT.Entities.Category
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete Category</h2>
+<h1>Are you sure you want dlete this category</h1>
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.ID" />
+    <button type="submit">Yes buttomn</button>
+
+</form>
+<a href="/Index">Cancel</a>
+
+

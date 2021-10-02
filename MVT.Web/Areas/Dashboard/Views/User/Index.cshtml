@@ -1,0 +1,71 @@
+﻿@model  MVT.Web.Areas.Dashboard.ViewModels.UserListingViewModel
+@{
+    ViewBag.Title = "Index";
+}
+<div>
+    <form method="post">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                    <label>Search</label>
+                    <input class="form-control" id="searchTxt" name="Search" value="@Model.SearchTerm" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label>Action</label>
+                    <div class="row">
+                        <div class="col-md-4 pr-0">
+                            <button class="btn btn-primary form-control" type="button" id="searchBtn">Search</button>
+                        </div>
+                        <div class="col-md-4 pr-0">
+                            <button class="btn btn-primary form-control" type="button" id="resetBtn">Reset</button>
+                        </div>
+                        <div class="col-md-4 pr-0">
+                            <button class="btn btn-primary form-control" type="button" id="newBtn">New</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="font-weight-bold">Full Name</th>
+                <th class="font-weight-bold">Gmail</th>
+                <th class="font-weight-bold wrap-td">MobileNo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Users != null && Model.Users.Count()>0)
+            {
+                foreach (var user in Model.Users)
+                {
+                    <tr>
+                        <td>@user.Fullname</td>
+                        <td>
+                            @user.Email
+                        </td>
+                        <td>
+                            @user.mobileNo 
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="3" class="text-danger">No Categories found.</td></tr>
+            }
+        </tbody>
+    </table>
+   
+</div>
+@*<h2>Index</h2>
+@foreach(var user in Model.Users)
+{
+    <h2>@user.UserName</h2>
+}*@
+

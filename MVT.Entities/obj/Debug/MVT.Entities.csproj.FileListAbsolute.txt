@@ -1,0 +1,16 @@
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\MVT.Entities.dll
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\MVT.Entities.pdb
+C:\Users\MVT\source\repos\MVT\MVT.Entities\obj\Debug\MVT.Entities.csprojAssemblyReference.cache
+C:\Users\MVT\source\repos\MVT\MVT.Entities\obj\Debug\MVT.Entities.csproj.CoreCompileInputs.cache
+C:\Users\MVT\source\repos\MVT\MVT.Entities\obj\Debug\MVT.Entities.dll
+C:\Users\MVT\source\repos\MVT\MVT.Entities\obj\Debug\MVT.Entities.pdb
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\MVT.Entities.dll.config
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\EntityFramework.dll
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\EntityFramework.xml
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MVT\source\repos\MVT\MVT.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MVT\source\repos\MVT\MVT.Entities\obj\Debug\MVT.Entities.csproj.CopyComplete
